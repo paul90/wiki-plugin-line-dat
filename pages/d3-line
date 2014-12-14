@@ -57,6 +57,16 @@
         "id": "85f2901bdbdced60",
         "type": "paragraph"
       }
+    },
+    {
+      "type": "edit",
+      "id": "85f2901bdbdced60",
+      "item": {
+        "text": "This is the <i>line</i> example from the [http://mbostock.github.com/d3/ d3]  distribution.  If you see an error above, don't panic, keep reading. See also [[D3 Bars]] example.",
+        "id": "85f2901bdbdced60",
+        "type": "html"
+      },
+      "date": 1418315745091
     }
   ],
   "story": [
@@ -67,12 +77,13 @@
     {
       "text": "This is the <i>line</i> example from the [http://mbostock.github.com/d3/ d3]  distribution.  If you see an error above, don't panic, keep reading. See also [[D3 Bars]] example.",
       "id": "85f2901bdbdced60",
-      "type": "paragraph"
+      "type": "html"
     },
     {
       "text": "We've modified the example to retrieve data from the page that contains it. We start by searching the page. Failing that, we search any other visible pages (soon). We'll be developing heuristics for best-fit of data when multiple sources are present.",
       "id": "81d27d9b73b81dfb",
       "type": "paragraph"
     }
-  ]
+  ],
+  "plugin": "line"
 }
