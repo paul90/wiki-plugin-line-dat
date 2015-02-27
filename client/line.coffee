@@ -1,3 +1,10 @@
+###
+ * Federated Wiki : Line Plugin
+ *
+ * Licensed under the MIT license.
+ * https://github.com/fedwiki/wiki-plugin-line/blob/master/LICENSE.txt
+###
+
 extent = (data, f) ->
   [lo, hi] = [d3.min(data,f), d3.max(data,f)]
   step = Math.pow 10, Math.floor Math.log(hi-lo) / Math.log(10)
@@ -114,4 +121,3 @@ window.plugins.line =
               .data([data])
               .transition()
               .attr("d", line);
-
