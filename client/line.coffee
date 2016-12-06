@@ -29,7 +29,7 @@ window.plugins.line =
         </style>
       '''
       candidates = $(".item:lt(#{$('.item').index(div)})")
-      if (who = candidates.filter ".sequence-source").size()
+      if (who = candidates.filter ".sequence-source").length
         choice = who[who.length-1]
         data = ({x,y:+y} for y,x in choice.getSequenceData())
         x = d3.scale.linear().domain(extent data, (p)->p.x).range([ 0, w ])
