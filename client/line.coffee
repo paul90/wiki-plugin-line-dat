@@ -14,7 +14,8 @@ extent = (data, f) ->
 window.plugins.line =
   bind: (div, item) ->
   emit: (div, item) ->
-    wiki.getScript '/js/d3/d3.min.js', ->
+    scriptURL =  wiki.clientOrigin + '/js/d3/d3.min.js'
+    wiki.getScript scriptURL, ->
       w = 350
       h = 275
       p = 40
